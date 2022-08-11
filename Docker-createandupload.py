@@ -10,7 +10,8 @@ def main():
                              [upload]    upload your images to docker hub\n
     '''
     message = '''
-	*Look if the dockerfile already exists its will be give you an error  
+	    *copy and run the script inside the floder where you are creating the images
+	    *Look if the dockerfile already exists its will be give you an error  
         *Attention before you are continue the process edit the dockerfile\n 
 
     '''
