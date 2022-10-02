@@ -20,10 +20,8 @@ def main():
     file = open(f"dockerfile", "x")
     file.close()
     image_names = str(input("choose and enter images name$"))
-    username = str(input("username for login to docker hub to upload the images$"))
-    password = str(input("password for login to docker hub to upload the images$"))
     os.system(f"docker build -t {image_names} .")
-    os.system(f"docker login --username {username} --password {password}")
+    os.system(f"docker login ")
     os.system(f"docker push {image_names} ")
     os.system("pause")
 
